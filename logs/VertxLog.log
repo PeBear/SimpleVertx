@@ -1,0 +1,6 @@
+[DEBUG] 2020-03-28 17:17:37.380 [vert.x-eventloop-thread-0] MainVerticle - HttpServer Log complete! 
+[INFO ] 2020-03-28 17:31:36.800 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-28 17:32:42.983 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-28 17:32:59.693 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
+[INFO ] 2020-03-28 17:33:03.070 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-28 17:33:05.014 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="log-path">logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="ROLLING-FILE"
+                     fileName="${log-path}/VertxLog.log"
+                     filePattern="${log-path}/VertxDating-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg %n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!--name: is package or class log with this configuration-->
+        <!--level: min level to log with this configuration-->
+        <Logger name="com.xpeter" level="TRACE" includeLocation="false">
+            <AppenderRef ref="ROLLING-FILE"/>
+        </Logger>
+    </Loggers>
+</Configuration>

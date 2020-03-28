@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2ae5fb2-3d52-43da-bb16-7b144007b68e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zhbz5TpyPuQQOqwkwbpawpzInp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../starter" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31958762" />
+  </component>
+  <component name="RunManager" selected="Gradle.SimpleVertxProject [run]">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xpeter.Demo" />
+      <module name="SimpleVertxProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xpeter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JooqHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xpeter.helper.JooqHelper" />
+      <module name="SimpleVertxProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xpeter.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleVertxProject [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleVertxProject [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleVertxProject [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.JooqHelper" />
+        <item itemvalue="Gradle.SimpleVertxProject [run]" />
+        <item itemvalue="Gradle.SimpleVertxProject [shadowJar]" />
+        <item itemvalue="Gradle.SimpleVertxProject [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2ae5fb2-3d52-43da-bb16-7b144007b68e" name="Default Changelist" comment="" />
+      <created>1585294531914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585294531914</updated>
+      <workItem from="1585294536132" duration="9186000" />
+      <workItem from="1585364058016" duration="9745000" />
+      <workItem from="1585386465857" duration="4995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="39" width="800" height="677" key="#Project_Structure" timestamp="1585389092289">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="278" y="39" width="800" height="677" key="#Project_Structure/0.27.1366.704@0.27.1366.704" timestamp="1585389092289" />
+    <state x="416" y="136" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585373839905">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="416" y="136" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1366.704@0.27.1366.704" timestamp="1585373839905" />
+    <state x="491" y="89" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1585374033145">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="491" y="89" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/0.27.1366.704@0.27.1366.704" timestamp="1585374033145" />
+    <state x="430" y="27" width="496" height="704" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585297888188">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="430" y="27" width="496" height="704" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.704@0.27.1366.704" timestamp="1585297888188" />
+    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585294835621">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.704@0.27.1366.704" timestamp="1585294835621" />
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom" timestamp="1585391490754">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585391490753" />
+    <state width="1320" height="138" key="GridCell.Tab.0.center" timestamp="1585391490753">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="138" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1585391490753" />
+    <state width="1320" height="138" key="GridCell.Tab.0.left" timestamp="1585391490753">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="138" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1585391490753" />
+    <state width="1320" height="138" key="GridCell.Tab.0.right" timestamp="1585391490753">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="138" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1585391490753" />
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1585389162051">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585389162051" />
+    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1585389162050">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1585389162050" />
+    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1585389162050">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1585389162050" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1585389162051">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1585389162051" />
+    <state x="339" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1585386482341">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="339" y="205" key="com.intellij.ide.util.TipDialog/0.27.1366.704@0.27.1366.704" timestamp="1585386482341" />
+    <state x="347" y="166" key="run.anything.popup" timestamp="1585300889496">
+      <screen x="0" y="27" width="1366" height="704" />
+    </state>
+    <state x="347" y="166" key="run.anything.popup/0.27.1366.704@0.27.1366.704" timestamp="1585300889496" />
+  </component>
+</project>

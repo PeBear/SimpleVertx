@@ -1,0 +1,7 @@
+{
+  "username" : "root",
+  "password" : "forgetforgot",
+  "url" : "jdbc:mysql://localhost:3306/ASM",
+  "serverPort" : 8888
+}
+
