@@ -41,21 +41,22 @@ public class MainVerticle extends AbstractVerticle {
             HttpServerResponse response = req.response();
             response.putHeader("content-type", "application/json");
             String contentType = req.getHeader("content-type");
-            if (contentType == null ||
-                    !contentType.equalsIgnoreCase("application/json")) {
-                response.end(getTemplateResponse(response, 400, false, "Bad Request"));
+            if (method.equals("GET")) {
+                processGetMethod(response);
             } else {
-                if (method.equals("GET")) {
-                    processGetMethod(response);
-                }
-                if (method.equals("POST")) {
-                    processPostMethod(req, response);
-                }
-                if (method.equals("PUT")) {
-                    processPutMethod(req, response);
-                }
-                if (method.equals("DELETE")) {
-                    processDeleteMethod(req, response);
+                if (contentType == null ||
+                        !contentType.equalsIgnoreCase("application/json")) {
+                    response.end(getTemplateResponse(response, 400, false, "Bad Request"));
+                } else {
+                    if (method.equals("POST")) {
+                        processPostMethod(req, response);
+                    }
+                    if (method.equals("PUT")) {
+                        processPutMethod(req, response);
+                    }
+                    if (method.equals("DELETE")) {
+                        processDeleteMethod(req, response);
+                    }
                 }
             }
         }).listen(serverPort, http -> {
