@@ -11,6 +11,7 @@ import com.xpeter.service.CustomerService;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
 import io.vertx.core.buffer.Buffer;
+import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.http.HttpServer;
 import io.vertx.core.http.HttpServerRequest;
 import io.vertx.core.http.HttpServerResponse;
@@ -41,7 +42,7 @@ public class MainVerticle extends AbstractVerticle {
             response.putHeader("content-type", "application/json");
             String contentType = req.getHeader("content-type");
             if (contentType == null ||
-                    !contentType.equalsIgnoreCase("application/json")){
+                    !contentType.equalsIgnoreCase("application/json")) {
                 response.end(getTemplateResponse(response, 400, false, "Bad Request"));
             } else {
                 if (method.equals("GET")) {
@@ -65,6 +66,14 @@ public class MainVerticle extends AbstractVerticle {
                 log.error("Opps on HttpServer start: " + http.cause());
             }
         });
+        EventBus eb = vertx.eventBus();
+        eb.consumer("main.verticle", result -> {
+            System.out.println("MainVerticle EventBus receive mess: " + result.body());
+            result.reply("Yo, Reply from MainVerticle");
+            eb.publish("temp.verticle", "PUBLISH MESS FROM MainVerticle");
+        });
+        vertx.deployVerticle("com.xpeter.SubVerticle");
+        vertx.deployVerticle("com.xpeter.TempVerticle");
     }
 
     private void processGetMethod(HttpServerResponse response) {
