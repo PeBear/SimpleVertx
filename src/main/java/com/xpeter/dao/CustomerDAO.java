@@ -1,15 +1,24 @@
 package com.xpeter.dao;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.xpeter.dto.CustomerDTO;
 import com.xpeter.helper.JooqHelper;
 import com.xpeter.model.tables.records.CustomerRecord;
 import io.vertx.core.json.JsonArray;
 
+import io.vertx.core.json.JsonObject;
+import io.vertx.core.parsetools.JsonParser;
 import org.jooq.*;
 import org.jooq.impl.DSL;
 import org.jooq.impl.DefaultConfiguration;
+import org.jooq.tools.json.JSONObject;
+import org.jooq.tools.json.JSONParser;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 import static com.xpeter.model.Tables.CUSTOMER;
 
@@ -23,24 +32,32 @@ public class CustomerDAO {
         context = DSL.using(configuration);
     }
 
-    public String getListCustomers() {
-        Result<Record> result = context.select().from(CUSTOMER).fetch();
-        JsonArray array = new JsonArray();
-//        result.forEach(data -> {
-//            array.add(data.formatJSON());
-//        });
-        return result.formatJSON(JSONFormat.DEFAULT_FOR_RECORDS);
+    public List<CustomerDTO> getListCustomers() {
+        List<CustomerDTO> list = context.select().from(CUSTOMER).fetchInto(CustomerDTO.class);
+        return list;
     }
 
     public String getCustomerById(String value) {
-        Record record = context.select().from(CUSTOMER).where(CUSTOMER.USERNAME.eq(value)).fetchOne();
+        CustomerDTO record = context.select().from(CUSTOMER).where(CUSTOMER.USERNAME.eq(value)).fetchOneInto(CustomerDTO.class);
         if (record == null) {
             return null;
         }
-        return record.formatJSON();
+        ObjectMapper mapper = new ObjectMapper();
+        String result = "";
+        try {
+            System.out.println(mapper.writeValueAsString(record));
+            result = mapper.writeValueAsString(record);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
+        return result;
     }
 
     public boolean insertCustomer(CustomerRecord record) throws SQLException {
+        if (getCustomerById(record.getUsername()) != null){
+            return false;
+        }
         int affect =
                 context.insertInto(CUSTOMER, CUSTOMER.USERNAME, CUSTOMER.PASSWORD, CUSTOMER.FULLNAME, CUSTOMER.GENDER, CUSTOMER.EMAIL)
                         .values(record.getUsername(), record.getPassword(), record.getFullname(), record.getGender(), record.getEmail())
@@ -69,7 +86,7 @@ public class CustomerDAO {
         return false;
     }
 
-    public boolean deleteCustomer(String username) throws SQLException{
+    public boolean deleteCustomer(String username) throws SQLException {
         if (getCustomerById(username) == null) {
             return false;
         }

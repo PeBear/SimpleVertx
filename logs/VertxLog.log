@@ -1,6 +1,41 @@
-[DEBUG] 2020-03-28 17:17:37.380 [vert.x-eventloop-thread-0] MainVerticle - HttpServer Log complete! 
-[INFO ] 2020-03-28 17:31:36.800 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
-[INFO ] 2020-03-28 17:32:42.983 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
-[INFO ] 2020-03-28 17:32:59.693 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
-[INFO ] 2020-03-28 17:33:03.070 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
-[INFO ] 2020-03-28 17:33:05.014 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-30 08:57:15.659 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:02:00.992 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:04:09.264 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:23:44.483 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:24:14.790 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:24:47.269 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:26:26.124 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:27:16.737 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:29:34.256 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:32:34.174 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:33:09.635 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:33:43.066 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:35:13.551 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:37:32.284 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:44:15.234 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:46:02.540 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:47:31.347 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:49:00.268 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:54:09.088 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:54:47.066 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:55:34.459 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:57:21.298 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:58:30.079 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 09:58:41.349 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-30 09:58:46.491 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
+[INFO ] 2020-03-30 09:58:51.991 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-30 09:58:57.306 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-30 09:59:01.956 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
+[INFO ] 2020-03-30 09:59:08.384 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-30 09:59:15.020 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-30 10:06:41.425 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 10:10:39.294 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 10:10:47.894 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
+[INFO ] 2020-03-30 10:10:54.820 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-30 10:12:56.032 [vert.x-eventloop-thread-0] MainVerticle - HttpServer started on port: 8888 
+[INFO ] 2020-03-30 10:13:04.368 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Failed 
+[INFO ] 2020-03-30 10:13:12.344 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-30 10:13:17.256 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 
+[INFO ] 2020-03-30 10:13:23.320 [vert.x-eventloop-thread-0] MainVerticle - POST Done! Insert Success Customer xpeter 
+[INFO ] 2020-03-30 10:13:28.616 [vert.x-eventloop-thread-0] MainVerticle - PUT Done! Update Success Customer xpeter 
+[INFO ] 2020-03-30 10:13:33.527 [vert.x-eventloop-thread-0] MainVerticle - DELETE Done! Delete Success Customer xpeter 

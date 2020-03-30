@@ -1,16 +1,22 @@
 package com.xpeter.service;
 
 import com.xpeter.dao.CustomerDAO;
+import com.xpeter.dto.CustomerDTO;
 import com.xpeter.model.tables.records.CustomerRecord;
 import io.vertx.core.json.JsonObject;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public class CustomerService {
     CustomerDAO customerDAO = new CustomerDAO();
 
-    public String getListCustomers() {
+    public List<CustomerDTO> getListCustomers() {
         return customerDAO.getListCustomers();
+    }
+
+    public String getCustomerById(String username){
+        return customerDAO.getCustomerById(username);
     }
 
     public boolean insertCustomer(JsonObject object) throws SQLException {
