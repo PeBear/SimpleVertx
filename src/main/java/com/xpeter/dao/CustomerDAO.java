@@ -38,24 +38,18 @@ public class CustomerDAO {
     }
 
     public String getCustomerById(String value) {
-        CustomerDTO record = context.select().from(CUSTOMER).where(CUSTOMER.USERNAME.eq(value)).fetchOneInto(CustomerDTO.class);
+        CustomerDTO record = context.select()
+                .from(CUSTOMER)
+                .where(CUSTOMER.USERNAME.eq(value))
+                .fetchOneInto(CustomerDTO.class);
         if (record == null) {
             return null;
         }
-        ObjectMapper mapper = new ObjectMapper();
-        String result = "";
-        try {
-            System.out.println(mapper.writeValueAsString(record));
-            result = mapper.writeValueAsString(record);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-
-        return result;
+        return new Gson().toJson(record);
     }
 
     public boolean insertCustomer(CustomerRecord record) throws SQLException {
-        if (getCustomerById(record.getUsername()) != null){
+        if (getCustomerById(record.getUsername()) != null) {
             return false;
         }
         int affect =

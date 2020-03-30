@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ae5fb2-3d52-43da-bb16-7b144007b68e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/VertxLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/VertxLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/VertxLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/xpeter/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/xpeter/dao/CustomerDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xpeter/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xpeter/dao/CustomerDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +48,6 @@
                 <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimpleVertxProject" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -88,7 +85,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../starter" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31958762" />
   </component>
@@ -118,25 +115,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="SimpleVertxProject [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="SimpleVertxProject [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -176,13 +154,33 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'SimpleVertxProject'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'SimpleVertxProject'" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.JooqHelper" />
         <item itemvalue="Gradle.SimpleVertxProject [run]" />
         <item itemvalue="Gradle.SimpleVertxProject [shadowJar]" />
-        <item itemvalue="Gradle.SimpleVertxProject [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +198,7 @@
       <workItem from="1585364058016" duration="9745000" />
       <workItem from="1585386465857" duration="8333000" />
       <workItem from="1585532743268" duration="5341000" />
-      <workItem from="1585538123983" duration="406000" />
+      <workItem from="1585538123983" duration="2561000" />
     </task>
     <servers />
   </component>
@@ -211,10 +209,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="39" width="800" height="677" key="#Project_Structure" timestamp="1585389092289">
+    <state x="278" y="39" width="800" height="677" key="#Project_Structure" timestamp="1585540380474">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="278" y="39" width="800" height="677" key="#Project_Structure/0.27.1366.704@0.27.1366.704" timestamp="1585389092289" />
+    <state x="278" y="39" width="800" height="677" key="#Project_Structure/0.27.1366.704@0.27.1366.704" timestamp="1585540380474" />
     <state x="416" y="136" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585373839905">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
@@ -227,42 +225,42 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="430" y="27" width="496" height="704" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.704@0.27.1366.704" timestamp="1585297888188" />
-    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585294835621">
+    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585540375558">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.704@0.27.1366.704" timestamp="1585294835621" />
-    <state width="1320" height="138" key="GridCell.Tab.0.bottom" timestamp="1585538552371">
+    <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.704@0.27.1366.704" timestamp="1585540375558" />
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom" timestamp="1585541083497">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585538552371" />
-    <state width="1320" height="138" key="GridCell.Tab.0.center" timestamp="1585538552370">
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585541083497" />
+    <state width="1320" height="138" key="GridCell.Tab.0.center" timestamp="1585541083496">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1585538552370" />
-    <state width="1320" height="138" key="GridCell.Tab.0.left" timestamp="1585538552369">
+    <state width="1320" height="138" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1585541083496" />
+    <state width="1320" height="138" key="GridCell.Tab.0.left" timestamp="1585541083496">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1585538552369" />
-    <state width="1320" height="138" key="GridCell.Tab.0.right" timestamp="1585538552371">
+    <state width="1320" height="138" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1585541083496" />
+    <state width="1320" height="138" key="GridCell.Tab.0.right" timestamp="1585541083497">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1585538552371" />
-    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1585394811927">
+    <state width="1320" height="138" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1585541083497" />
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1585540724248">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585394811927" />
-    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1585394811926">
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585540724248" />
+    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1585540724247">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1585394811926" />
-    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1585394811926">
+    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1585540724247" />
+    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1585540724246">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1585394811926" />
-    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1585394811927">
+    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1585540724246" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1585540724248">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1585394811927" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1585540724248" />
     <state x="339" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1585386482341">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
