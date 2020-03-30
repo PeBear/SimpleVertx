@@ -72,6 +72,7 @@ public class CustomerDAO {
         if (getCustomerById(object.getUsername()) == null) {
             return false;
         }
+
         int affect =
                 context.update(CUSTOMER)
                         .set(CUSTOMER.PASSWORD, object.getPassword())
