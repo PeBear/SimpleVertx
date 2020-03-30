@@ -48,10 +48,10 @@ public class CustomerDAO {
         return new Gson().toJson(record);
     }
 
-    public boolean insertCustomer(CustomerRecord record) throws SQLException {
-        if (getCustomerById(record.getUsername()) != null) {
-            return false;
-        }
+    public boolean insertCustomer(CustomerRecord record) throws SQLException, RuntimeException{
+//        if (getCustomerById(record.getUsername()) != null) {
+//            return false;
+//        }
         int affect =
                 context.insertInto(CUSTOMER, CUSTOMER.USERNAME, CUSTOMER.PASSWORD, CUSTOMER.FULLNAME, CUSTOMER.GENDER, CUSTOMER.EMAIL)
                         .values(record.getUsername(), record.getPassword(), record.getFullname(), record.getGender(), record.getEmail())
