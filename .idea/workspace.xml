@@ -6,15 +6,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/xpeter/MainVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/xpeter/MainVerticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/SimpleVertxProject-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/SimpleVertxProject-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/SimpleVertxProject-shadow-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/SimpleVertxProject-shadow-1.0-SNAPSHOT.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/SimpleVertxProject-1.0-SNAPSHOT-fat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SimpleVertxProject-1.0-SNAPSHOT-fat.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/VertxLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/VertxLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xpeter/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xpeter/MainVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/logs/VertxLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/logs/VertxLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/SimpleVertxProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/SimpleVertxProject.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scriptsShadow/SimpleVertxProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scriptsShadow/SimpleVertxProject.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +112,7 @@
       <recent name="$PROJECT_DIR$/build/libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleVertxProject [build]">
+  <component name="RunManager" selected="Gradle.SimpleVertxProject [shadowJar]">
     <configuration name="SimpleVertxProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,7 +232,7 @@
       <workItem from="1585364058016" duration="9745000" />
       <workItem from="1585386465857" duration="8333000" />
       <workItem from="1585532743268" duration="5341000" />
-      <workItem from="1585538123983" duration="14470000" />
+      <workItem from="1585538123983" duration="15678000" />
     </task>
     <servers />
   </component>
@@ -258,38 +263,38 @@
       <screen x="0" y="27" width="1366" height="704" />
     </state>
     <state x="466" y="136" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.704@0.27.1366.704" timestamp="1585540375558" />
-    <state width="1320" height="138" key="GridCell.Tab.0.bottom" timestamp="1585560118622">
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom" timestamp="1585562137212">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585560118622" />
-    <state width="1320" height="138" key="GridCell.Tab.0.center" timestamp="1585560118621">
+    <state width="1320" height="138" key="GridCell.Tab.0.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585562137212" />
+    <state width="1320" height="138" key="GridCell.Tab.0.center" timestamp="1585562137212">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1585560118621" />
-    <state width="1320" height="138" key="GridCell.Tab.0.left" timestamp="1585560118621">
+    <state width="1320" height="138" key="GridCell.Tab.0.center/0.27.1366.704@0.27.1366.704" timestamp="1585562137212" />
+    <state width="1320" height="138" key="GridCell.Tab.0.left" timestamp="1585562137211">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1585560118621" />
-    <state width="1320" height="138" key="GridCell.Tab.0.right" timestamp="1585560118621">
+    <state width="1320" height="138" key="GridCell.Tab.0.left/0.27.1366.704@0.27.1366.704" timestamp="1585562137211" />
+    <state width="1320" height="138" key="GridCell.Tab.0.right" timestamp="1585562137212">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="138" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1585560118621" />
-    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1585560064376">
+    <state width="1320" height="138" key="GridCell.Tab.0.right/0.27.1366.704@0.27.1366.704" timestamp="1585562137212" />
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom" timestamp="1585562137205">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585560064376" />
-    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1585560064375">
+    <state width="1320" height="204" key="GridCell.Tab.1.bottom/0.27.1366.704@0.27.1366.704" timestamp="1585562137205" />
+    <state width="1320" height="204" key="GridCell.Tab.1.center" timestamp="1585562137205">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1585560064375" />
-    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1585560064374">
+    <state width="1320" height="204" key="GridCell.Tab.1.center/0.27.1366.704@0.27.1366.704" timestamp="1585562137205" />
+    <state width="1320" height="204" key="GridCell.Tab.1.left" timestamp="1585562137205">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1585560064374" />
-    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1585560064375">
+    <state width="1320" height="204" key="GridCell.Tab.1.left/0.27.1366.704@0.27.1366.704" timestamp="1585562137205" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right" timestamp="1585562137205">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
-    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1585560064375" />
+    <state width="1320" height="204" key="GridCell.Tab.1.right/0.27.1366.704@0.27.1366.704" timestamp="1585562137205" />
     <state x="339" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1585386482341">
       <screen x="0" y="27" width="1366" height="704" />
     </state>
